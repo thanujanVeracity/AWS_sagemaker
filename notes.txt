@@ -1,0 +1,24 @@
+Amazon web services
+
+Amazon sage maker : Amazon SageMaker is a fully managed machine learning service. With SageMaker, 
+data scientists and developers can quickly and easily build and train machine learning models, 
+and then directly deploy them into a production-ready hosted environment. 
+
+benifits : 
+  reduces machine learning data costs
+  AI/ML components are stored in one place
+  Highly scalable
+  Trains model faster
+  Maintains uptime
+  High data sequrity 
+  easy data trasfers
+  
+  
+ * CUstomize ML models with jupyter note books
+ * it devides the training data and stores in Amazon S3, where as the training algorithm stored 
+ in ECR
+ * Later sagemaker sets up a cluster for the input data, trains it and stores it in Amazon s2 itself.
+ * Once tuning is done models can be deplyed into sage maker endpoints
+ * In the endpoints, real-time prediction is performed.
+ * 
+ 
