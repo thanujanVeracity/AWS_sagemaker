@@ -20,5 +20,13 @@ benifits :
  * Later sagemaker sets up a cluster for the input data, trains it and stores it in Amazon s2 itself.
  * Once tuning is done models can be deplyed into sage maker endpoints
  * In the endpoints, real-time prediction is performed.
- * 
  
+
+  Make a Docker file which is compatible for sagemaker
+  . https://sagemaker-examples.readthedocs.io/en/latest/advanced_functionality/scikit_bring_your_own/scikit_bring_your_own.html
+  
+  
+  Permissions
+  
+  Have to create new repositories in Amazon ECR
+  The easiest way to add these permissions is simply to add the managed policy AmazonEC2ContainerRegistryFullAccess to the role that you used   to start your notebook instance
